@@ -2,19 +2,26 @@
 
 ## File Layout
 
-### Client/   contains incomplete html files and JavaScript made for frontend
+### Client/
+##### contains incomplete html files and JavaScript made for frontend
 
 ### database/
-#### database.js   contains queries for creating a new database
+#### database.js   
+##### contains queries for creating a new database
 
 ### main/
-#### connection.js   contains credentials for mysql server
-#### app.js   main JavaScript file
+#### connection.js   
+##### contains credentials for mysql server
 
-### pics/   All pictures of the users will be stored here in the format : 'pic name'@'id of user'.png
+#### app.js   
+##### main JavaScript file
+
+### pics/   
+##### All pictures of the users will be stored here in the format : 'pic name'@'id of user'.png
 
 ### routes/
-#### Users.js   All the requests are processed here
+#### Users.js   
+##### All the requests are processed here
 
 ### package.json
 ### package-lock.json
