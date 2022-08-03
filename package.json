@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "file-type": "^17.1.4",
+    "filereader": "^0.10.3",
+    "multer": "^1.4.5-lts.1",
+    "myql": "^1.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "name": "cybernx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
