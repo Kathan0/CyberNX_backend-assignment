@@ -1,5 +1,25 @@
 # CyberNX_backend-assignment
 
+## File Layout
+
+### Client/   contains incomplete html files and JavaScript made for frontend
+
+### database/
+#### database.js   contains queries for creating a new database
+
+### main/
+#### connection.js   contains credentials for mysql server
+#### app.js   main JavaScript file
+
+### pics/   All pictures of the users will be stored here in the format : 'pic name'@'id of user'.png
+
+### routes/
+#### Users.js   All the requests are processed here
+
+### package.json
+### package-lock.json
+
+
 ## Quick Start
 
 ### Creating a database
@@ -58,23 +78,3 @@
 ###### If successful, image will be sent
 ###### message:0 = User doesn't exist
 ###### message:-1 = 'id' is not defined/sent
-
-
-## File Layout
-
-### Client/   contains incomplete html files and JavaScript made for frontend
-
-### database/
-#### database.js   contains queries for creating a new database
-
-### main/
-#### connection.js   contains credentials for mysql server
-#### app.js   main JavaScript file
-
-### pics/   All pictures of the users will be stored here in the format : 'pic name'@'id of user'.png
-
-### routes/
-#### Users.js   All the requests are processed here
-
-### package.json
-### package-lock.json
