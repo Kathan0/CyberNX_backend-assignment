@@ -55,10 +55,10 @@
 
 ### During login
 #### GET request to localhost:4000/login
-##### Send First name (string) as 'first_name'
-##### Last name (string) as 'last_name'
-##### and Password (string) as 'password'
-##### with "Content type = application/json"
+###### Send First name (string) as 'first_name'
+###### Last name (string) as 'last_name'
+###### and Password (string) as 'password'
+###### with "Content type = application/json"
 
 #### Response will be id and/or message: 
 ###### message:1 = Successful, with 'data' inside of which there will be ID of user as 'id' which will be used in Display of Details/Image
@@ -79,7 +79,7 @@
 
 #### Image
 ##### GET request to localhost:4000/display/image
-##### Send id (INT) as 'id'
+###### Send id (INT) as 'id'
 
 ##### Response will be image or message:
 ###### If successful, image will be sent
