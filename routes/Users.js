@@ -22,11 +22,7 @@ userRouter
     .post('/register',cors(), registerUser);
 
 export function loginUser(req, res) {
-
-    console.log(req);
-
-    console.log(typeof req.body.first_name+" "+typeof req.body.last_name+" "+ typeof req.body.password+" "+req.body.first_name+" "+req.body.last_name+" "+req.body.password)
-
+    
     if(typeof req.body.first_name !== 'undefined' && typeof req.body.last_name !== 'undefined' && typeof req.body.password !== 'undefined'){
 
         var first_name = `'${req.body.first_name}'`;
