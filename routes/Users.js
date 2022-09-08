@@ -23,11 +23,11 @@ userRouter
 
 export function loginUser(req, res) {
     
-    if(typeof req.body.first_name !== 'undefined' && typeof req.body.last_name !== 'undefined' && typeof req.body.password !== 'undefined'){
+    if(typeof req.query.first_name !== 'undefined' && typeof req.query.last_name !== 'undefined' && typeof req.query.password !== 'undefined'){
 
-        var first_name = `'${req.body.first_name}'`;
-        var last_name = `'${req.body.last_name}'`;
-        var password = `'${req.body.password}'`;
+        var first_name = `'${req.query.first_name}'`;
+        var last_name = `'${req.query.last_name}'`;
+        var password = `'${req.query.password}'`;
 
         connection.query(`USE cyber`, (err, result)=>{
             if(err) throw err;
@@ -65,9 +65,9 @@ export function loginUser(req, res) {
 
 export function displayUser(req, res){
 
-    if(typeof req.body.id !== 'undefined'){
+    if(typeof req.query.id !== 'undefined'){
 
-        var id = req.body.id;
+        var id = req.query.id;
         connection.query(`USE cyber`, (err, result)=>{
             if(err) throw err;
             console.log("Database connected from GET /display/details");
@@ -100,7 +100,7 @@ export function displayUser(req, res){
 
 export function displayImage(req, res){
 
-    if(typeof req.body.id !== 'undefined'){
+    if(typeof req.query.id !== 'undefined'){
 
         var id = req.body.id;
 
